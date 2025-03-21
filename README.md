@@ -74,8 +74,8 @@ Your code goes here. <br>
       </tr>
       <tr>
         <td>add-immediate</td>
-        <td>add reg, reg, constant</td>
-        <td>add rd, rs, immediate</td>
+        <td>addi reg, reg, constant</td>
+        <td>addi rd, rs, immediate</td>
         <td>8</td>
       </tr>
 
@@ -151,8 +151,8 @@ Your code goes here. <br>
       </tr>
       <tr>
         <td>set on less than immediate</td>
-        <td>slt reg, reg, const</td>
-        <td>slt rd, rs, immediate</td>
+        <td>slti reg, reg, const</td>
+        <td>slti rd, rs, immediate</td>
         <td>10</td>
       </tr>
 
