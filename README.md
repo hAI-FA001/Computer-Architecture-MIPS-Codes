@@ -49,16 +49,16 @@ Your code goes here. <br>
 
 ## Commands Reference
 
-<pre>
+
 <table>
-
   <thead>
-    <th>Name</th>
-    <th>Syntax</th>
-    <th>Format</th>
-    <th>Op, Funct (if applicable)</th>
+    <tr>
+      <th>Name</th>
+      <th>Syntax</th>
+      <th>Format</th>
+      <th>Op, Funct (if applicable)</th>
+    </tr>
   </thead>
-
   <tbody>
       <tr>
         <td>add</td>
@@ -74,11 +74,10 @@ Your code goes here. <br>
       </tr>
       <tr>
         <td>add-immediate</td>
-        <td>add reg, reg, constant</td>
-        <td>add rd, rs, immediate</td>
+        <td>addi reg, reg, constant</td>
+        <td>addi rd, rs, immediate</td>
         <td>8</td>
       </tr>
-
       <tr>
         <td>load word</td>
         <td>lw reg, offset(reg)</td>
@@ -91,7 +90,6 @@ Your code goes here. <br>
         <td>sw rt, immediate(rs)</td>
         <td>43</td>
       </tr>
-
       <tr>
         <td>shift left logical</td>
         <td>sll reg, reg, const</td>
@@ -104,7 +102,6 @@ Your code goes here. <br>
         <td>srl rd, rt, shamt</td>
         <td>0, 2</td>
       </tr>
-
       <tr>
         <td>branch on equal</td>
         <td>beq reg, reg, label</td>
@@ -117,7 +114,6 @@ Your code goes here. <br>
         <td>bne rs, rt, address</td>
         <td>5</td>
       </tr>
-
       <tr>
         <td>branch on less than</td>
         <td>blt reg, reg, label</td>
@@ -142,7 +138,6 @@ Your code goes here. <br>
         <td>Pseudo-instruction</td>
         <td>Pseudo-instruction</td>
       </tr>
-
       <tr>
         <td>set on less than</td>
         <td>slt reg, reg, reg</td>
@@ -151,18 +146,16 @@ Your code goes here. <br>
       </tr>
       <tr>
         <td>set on less than immediate</td>
-        <td>slt reg, reg, const</td>
-        <td>slt rd, rs, immediate</td>
+        <td>slti reg, reg, const</td>
+        <td>slti rd, rs, immediate</td>
         <td>10</td>
       </tr>
-
       <tr>
         <td>unconditional jump</td>
         <td>j label</td>
         <td>j address</td>
         <td>2</td>
       </tr>
-
       <tr>
         <td>and</td>
         <td>and reg, reg, reg</td>
@@ -181,8 +174,5 @@ Your code goes here. <br>
         <td>nor rd, rs, rt</td>
         <td>0, 39</td>
       </tr>
-
   </tbody>
-
 </table>
-</pre>
