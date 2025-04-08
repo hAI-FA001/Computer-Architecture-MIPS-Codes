@@ -183,6 +183,7 @@ Your code goes here. <br>
       <th>Command</th>
       <th>ALU Op</th>
       <th>ALU Control</th>
+      <th>Operation Performed</th>
     </tr>
   </thead>
   <tbody>
@@ -190,76 +191,91 @@ Your code goes here. <br>
       <td>add</td>
       <td>10</td>
       <td>0010</td>
+      <td>Addition</td>
     </tr>
     <tr>
       <td>sub</td>
       <td>10</td>
       <td>0110</td>
+      <td>Subtraction</td>
     </tr>
     <tr>
       <td>addi</td>
       <td>10</td>
       <td>0010</td>
+      <td>Addition</td>
     </tr>
     <tr>
       <td>lw</td>
       <td>00</td>
       <td>0010</td>
+      <td>Addition</td>
     </tr>
     <tr>
       <td>sw</td>
       <td>00</td>
       <td>0010</td>
+      <td>Addition</td>
     </tr>
     <tr>
       <td>sll</td>
       <td>10</td>
+      <td>?</td>
       <td>?</td>
     </tr>
     <tr>
       <td>srl</td>
       <td>10</td>
       <td>?</td>
+      <td>?</td>
     </tr>
     <tr>
       <td>beq</td>
       <td>01</td>
       <td>0110</td>
+      <td>Subtraction</td>
     </tr>
     <tr>
       <td>bne</td>
       <td>01</td>
       <td>0110</td>
+      <td>Subtraction</td>
     </tr>
     <tr>
       <td>slt</td>
       <td>10</td>
       <td>0111</td>
+      <td>Set-on-less-than</td>
     </tr>
     <tr>
       <td>slti</td>
       <td>10</td>
       <td>0111</td>
+      <td>Set-on-less-than</td>
     </tr>
     <tr>
       <td>j</td>
       <td>01</td>
+      <td>?</td>
       <td>?</td>
     </tr>
     <tr>
       <td>and</td>
       <td>10</td>
       <td>0000</td>
+      <td>Bitwise AND</td>
     </tr>
     <tr>
       <td>or</td>
       <td>10</td>
       <td>0001</td>
+      <td>Bitwise OR</td>
     </tr>
     <tr>
       <td>nor</td>
       <td>10</td>
       <td>1100</td>
+      <td>Invert inputs then Bitwise AND (NOR)</td>
     </tr>
   </tbody>
 </table>
