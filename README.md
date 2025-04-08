@@ -75,7 +75,7 @@ Your code goes here. <br>
       <tr>
         <td>add-immediate</td>
         <td>addi reg, reg, constant</td>
-        <td>addi rd, rs, immediate</td>
+        <td>addi rt, rs, immediate</td>
         <td>8</td>
       </tr>
       <tr>
@@ -147,7 +147,7 @@ Your code goes here. <br>
       <tr>
         <td>set on less than immediate</td>
         <td>slti reg, reg, const</td>
-        <td>slti rd, rs, immediate</td>
+        <td>slti rt, rs, immediate</td>
         <td>10</td>
       </tr>
       <tr>
@@ -174,5 +174,92 @@ Your code goes here. <br>
         <td>nor rd, rs, rt</td>
         <td>0, 39</td>
       </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Command</th>
+      <th>ALU Op</th>
+      <th>ALU Control</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>add</td>
+      <td>10</td>
+      <td>0010</td>
+    </tr>
+    <tr>
+      <td>sub</td>
+      <td>10</td>
+      <td>0110</td>
+    </tr>
+    <tr>
+      <td>addi</td>
+      <td>10</td>
+      <td>0010</td>
+    </tr>
+    <tr>
+      <td>lw</td>
+      <td>00</td>
+      <td>0010</td>
+    </tr>
+    <tr>
+      <td>sw</td>
+      <td>00</td>
+      <td>0010</td>
+    </tr>
+    <tr>
+      <td>sll</td>
+      <td>10</td>
+      <td>?</td>
+    </tr>
+    <tr>
+      <td>srl</td>
+      <td>10</td>
+      <td>?</td>
+    </tr>
+    <tr>
+      <td>beq</td>
+      <td>01</td>
+      <td>0110</td>
+    </tr>
+    <tr>
+      <td>bne</td>
+      <td>01</td>
+      <td>0110</td>
+    </tr>
+    <tr>
+      <td>slt</td>
+      <td>10</td>
+      <td>0111</td>
+    </tr>
+    <tr>
+      <td>slti</td>
+      <td>10</td>
+      <td>0111</td>
+    </tr>
+    <tr>
+      <td>j</td>
+      <td>01</td>
+      <td>?</td>
+    </tr>
+    <tr>
+      <td>and</td>
+      <td>10</td>
+      <td>0000</td>
+    </tr>
+    <tr>
+      <td>or</td>
+      <td>10</td>
+      <td>0001</td>
+    </tr>
+    <tr>
+      <td>nor</td>
+      <td>10</td>
+      <td>1100</td>
+    </tr>
   </tbody>
 </table>
