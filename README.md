@@ -221,13 +221,13 @@ Your code goes here. <br>
       <td>sll</td>
       <td>10</td>
       <td>?</td>
-      <td>?</td>
+      <td>Usually implemented outside ALU</td>
     </tr>
     <tr>
       <td>srl</td>
       <td>10</td>
       <td>?</td>
-      <td>?</td>
+      <td>Usually implemented outside ALU</td>
     </tr>
     <tr>
       <td>beq</td>
@@ -256,8 +256,8 @@ Your code goes here. <br>
     <tr>
       <td>j</td>
       <td>01</td>
-      <td>?</td>
-      <td>?</td>
+      <td>N/A</td>
+      <td>Implemented outside ALU</td>
     </tr>
     <tr>
       <td>and</td>
